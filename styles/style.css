@@ -1,0 +1,53 @@
+/*--------------- 
+Font Awesome
+-----------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.main-header{
+    background-color: #2D25A0;
+    width: 1440px;
+    height: 677px;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    
+}
+.header-info{
+    padding-left: 156px;
+    padding-right: 102px;
+}
+.header-title{
+    padding-top: 207px;
+}
+h2{
+    color:#FFFFFF;
+    font-size: 64px;
+    width: 485px;
+    height: 230px;   
+}
+.watch-live{
+    padding-top: 27px;
+    padding-bottom: 169px;
+}
+
+.header-info a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    
+}
+.fa-long-arrow-alt-right{
+    padding-left: 8px;
+    width: 24px;
+    height: 24px;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+
+}
