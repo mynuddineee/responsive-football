@@ -278,6 +278,7 @@ media quieries for mobile devices start
         width: auto;
         height: auto;   
     }
+
     .players{
         margin-top: 70px;
         margin-left: 180px;
@@ -292,7 +293,11 @@ media quieries for mobile devices start
         grid-row-gap: 100px;
         padding-bottom: 40px;
     }
-    
+    .explores{
+        background-color: white;
+        margin-left: 180px;
+        margin-right: 210px;
+    }
     .explore{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
