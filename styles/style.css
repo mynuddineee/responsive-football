@@ -11,8 +11,7 @@ Header start
 ---------------------------------------------------------------*/
 .main-header{
     background-color: #2D25A0;
-    width: 1440px;
-    height: 677px;
+    width: 100%;
     margin-top: 0;
     margin-bottom: 0;
     display: grid;
@@ -266,7 +265,6 @@ media quieries for mobile devices start
     .main-header{
         background-color: #2D25A0;
         width: 688px;
-        height: auto;
         margin-top: 0;
         margin-bottom: 0;
         display: grid;
@@ -308,11 +306,13 @@ media quieries for mobile devices start
     }
 
     footer{
+
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         padding-left: 150px ;
         grid-row-gap: 100px;
         padding-bottom: 0px;
+        text-align: center;
         
     }
     .footer-logo img{
