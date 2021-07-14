@@ -11,7 +11,8 @@ body{
     height: 677px;
     margin-top: 0;
     margin-bottom: 0;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     
 }
@@ -216,3 +217,75 @@ footer{
     font-weight: 400;
     margin-bottom: 63px;
 }
+
+/*--------------------------------------------
+media quieries for mobile devices
+ -------------------------------------------*/
+
+ @media only screen and (max-width:688px) {
+    .main-header{
+        background-color: #2D25A0;
+        width: 688px;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        
+    }
+    .thumbnail{
+        width: 180px;
+        height: 180px;
+    }
+    h2{
+        color:#FFFFFF;
+        font-size: 64px;
+        width: auto;
+        height: auto;   
+    }
+    .players{
+        margin-top: 70px;
+        margin-left: 180px;
+        margin-right: 210px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .partners{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 150px ;
+        grid-row-gap: 100px;
+        padding-bottom: 40px;
+    }
+    
+    .explore{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 150px ;
+        grid-row-gap: 100px;
+        padding-bottom: 40px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 150px ;
+        grid-row-gap: 100px;
+        padding-bottom: 0px;
+        
+    }
+    .footer-logo img{
+        width: 284px;
+        height: 100px;
+    
+    }
+    .icon-media{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    
+
+ }
+ 
