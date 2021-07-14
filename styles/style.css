@@ -18,6 +18,7 @@ Header start
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     
+    
 }
 .header-info{
     padding-left: 156px;
@@ -47,19 +48,14 @@ h2{
     
     
 }
-/*.banner:hover{
-    cursor: default; 
-    transform: rotate(360deg); 
-    transition: all 0.3s ease-in-out 0s;
-}*/
-/*.thumbnail{
-    
+
+.banner{
     transition: all 0.3s ease-in-out 0s;
 }
-#watch:hover .thumbnail{
+.main-header:hover .banner{
     cursor: default;
     transform: rotate(360deg);
-}*/
+}
 
 .fa-long-arrow-alt-right{
     padding-left: 8px;
@@ -67,7 +63,7 @@ h2{
     height: 24px;
 }
 .banner img{
-    width: 556.01px;
+    width: 556px;
     height: 438px;
 
 }
@@ -254,7 +250,7 @@ footer{
 }
 
 /*------------------------------------------------------------------- 
-footerinfo start
+footerinfo end
 ----------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------
