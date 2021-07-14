@@ -69,9 +69,11 @@ h2{
 }
 .players{
     margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 210px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
+    
 }
 .player img{
     width: 300px;
@@ -87,8 +89,18 @@ h2{
     color: #6C6C6C;
     width: 300px;
 }
+footer{
+    text-align: center;
+    padding-left: 475px;
+    padding-right: 480px;
+  
+}
 .footer-logo img{
     width: 484px;
     height: 110px;
 
+}
+.copyright{
+    font-size: 18px;
+    font-weight: 400;
 }
