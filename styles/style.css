@@ -105,10 +105,7 @@ h2{
 }
 .copa-partners{
     margin-left: 180px;
-    margin-right: 210px;
-   
-    
-    
+    margin-right: 210px;    
 }
 .partners{
     display: grid;
@@ -125,6 +122,40 @@ h2{
 .partner-thumbnail img{
     width: 120px;
     height: 60px;
+}
+.explores{
+    background-color: thistle;
+    margin-left: 180px;
+    margin-right: 210px;
+}
+.explores-title{
+    font-size: 38px;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 20px;
+    color: steelblue;
+}
+.explore{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 150px ;
+    grid-row-gap: 100px;
+    padding-bottom: 40px;
+    
+}
+.explore-title{
+    font-size: 28px;
+    color: grey;
+    
+
+}
+ul>li{
+    list-style: none;
+    font-size: 20px;   
+}
+ul>li a{
+    text-decoration: none;
+    color: gray;
 }
 footer{
     text-align: center;
